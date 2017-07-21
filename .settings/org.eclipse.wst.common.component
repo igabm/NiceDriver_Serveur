@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="NiceDriver_Serveur">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="NiceDriver_Serveur"/>
+        <property name="java-output-path" value="/NiceDriver_Serveur/build/classes"/>
+    </wb-module>
+</project-modules>
