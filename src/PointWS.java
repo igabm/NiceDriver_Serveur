@@ -5,7 +5,8 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 
-public class PointWS extends Application{
+@Path("/test")
+public class PointWS {
 	   @GET 
 	   @Path("/points") 
 	   @Produces(MediaType.APPLICATION_JSON) 
