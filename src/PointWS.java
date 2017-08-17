@@ -3,8 +3,8 @@ import javax.ws.rs.core.MediaType;
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
-import org.codehaus.jettison.json.JSONArray;
 import org.codehaus.jettison.json.JSONException;
+import org.codehaus.jettison.json.JSONObject;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,7 +13,6 @@ import java.util.List;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 
 @Path("/points")
@@ -31,14 +30,16 @@ public class PointWS {
 	public List<PointCalcul> getListePoint(String data)
 			throws JSONException, JsonParseException, JsonMappingException, IOException {
 
+		System.out.println(data);
+		
 		List<PointCalcul> pointsCalcul = new ArrayList<PointCalcul>();
 
-		JSONArray array = new JSONArray(data);
+		JSONObject jsonObject = new JSONObject(data);
 
 		ObjectMapper mapper = new ObjectMapper();
-		String jsonPointsTrajet = array.get(0).toString();
-		String jsonSignal = array.get(1).toString();
-
+		String jsonPointsTrajet = jsonObject.getJSONArray("locations").toString();
+		String jsonSignal = jsonObject.getJSONArray("signals").toString();
+		
 		List<PointTrajet> pointsTrajet = mapper.readValue(jsonPointsTrajet,
 				mapper.getTypeFactory().constructParametricType(List.class, PointTrajet.class));
 
