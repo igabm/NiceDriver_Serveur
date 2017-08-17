@@ -26,9 +26,9 @@ public class PointWS {
 	}
 
 	@POST
-	@Path("/{type}")
+	@Path("")
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<PointCalcul> getListePoint(@PathParam("type") String type, String data)
+	public List<PointCalcul> getListePoint(String data)
 			throws JSONException, JsonParseException, JsonMappingException, IOException {
 
 		List<PointCalcul> pointsCalcul = new ArrayList<PointCalcul>();
@@ -49,38 +49,36 @@ public class PointWS {
 		PointTrajet B = new PointTrajet();
 
 		for (Signal signal : signaux) {
-			if (signal.getName().equals(type)) {
-				long dateSignal = signal.getDate().getTime();
+			long dateSignal = signal.getDate().getTime();
 
-				long min = 0;
+			long min = 0;
 
-				System.out.println("dateSignal : " + dateSignal);
+			System.out.println("dateSignal : " + dateSignal);
 
-				for (PointTrajet pointTrajet : pointsTrajet) {
+			for (PointTrajet pointTrajet : pointsTrajet) {
 
-					long datePoint = pointTrajet.getDate().getTime();
-					// System.out.println("datePoint : " + datePoint);
+				long datePoint = pointTrajet.getDate().getTime();
+				// System.out.println("datePoint : " + datePoint);
 
-					if (datePoint < dateSignal) {
-						final long diff = Math.abs(signal.getDate().getTime() - pointTrajet.getDate().getTime());
-						if (min == 0) {
-							min = diff;
-							A = pointTrajet;
-						}
-						if (diff < min) {
-							min = diff;
-							A = pointTrajet;
-						}
-					} else {
-						final long diff = Math.abs(pointTrajet.getDate().getTime() - signal.getDate().getTime());
-						if (min == 0) {
-							min = diff;
-							B = pointTrajet;
-						}
-						if (diff < min) {
-							min = diff;
-							B = pointTrajet;
-						}
+				if (datePoint < dateSignal) {
+					final long diff = Math.abs(signal.getDate().getTime() - pointTrajet.getDate().getTime());
+					if (min == 0) {
+						min = diff;
+						A = pointTrajet;
+					}
+					if (diff < min) {
+						min = diff;
+						A = pointTrajet;
+					}
+				} else {
+					final long diff = Math.abs(pointTrajet.getDate().getTime() - signal.getDate().getTime());
+					if (min == 0) {
+						min = diff;
+						B = pointTrajet;
+					}
+					if (diff < min) {
+						min = diff;
+						B = pointTrajet;
 					}
 
 				}
@@ -102,6 +100,7 @@ public class PointWS {
 				System.out.println("_______________________________________________");
 
 				pointCalcul.setDate(signal.getDate());
+				pointCalcul.setValeur(signal.getValue());
 				pointsCalcul.add(pointCalcul);
 			}
 		}
