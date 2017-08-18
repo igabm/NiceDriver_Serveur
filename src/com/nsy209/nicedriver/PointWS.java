@@ -21,11 +21,31 @@ import org.jboss.resteasy.plugins.providers.jaxb.json.JsonParsing;
 @Path("/points")
 public class PointWS {
 	@GET
-	@Path("/trip")
+	@Path("/locations")
 	@Produces(MediaType.APPLICATION_JSON)
-	public String test() throws IOException {
+	public String locations() throws IOException {
 		InputStream is = 
-                JsonParsing.class.getResourceAsStream("/com/nsy209/nicedriver/data/trip.json");
+                JsonParsing.class.getResourceAsStream("/com/nsy209/nicedriver/data/locations.json");
+        String jsonTxt = IOUtils.toString(is);
+		return jsonTxt;
+	}
+	
+	@GET
+	@Path("/trips")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String trips() throws IOException {
+		InputStream is = 
+                JsonParsing.class.getResourceAsStream("/com/nsy209/nicedriver/data/trips.json");
+        String jsonTxt = IOUtils.toString(is);
+		return jsonTxt;
+	}
+	
+	@GET
+	@Path("/signals")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String signals() throws IOException {
+		InputStream is = 
+                JsonParsing.class.getResourceAsStream("/com/nsy209/nicedriver/data/signals.json");
         String jsonTxt = IOUtils.toString(is);
 		return jsonTxt;
 	}

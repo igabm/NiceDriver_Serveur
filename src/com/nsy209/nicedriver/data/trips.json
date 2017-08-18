@@ -1,0 +1,50 @@
+[
+    {
+        "id": "57518b64051f2937f089578f",
+        "beginLocation": {
+            "latitude": 50.68152,
+            "longitude": 3.082152,
+            "altitude": 51.5,
+            "heading": 60.16,
+            "satellites": 11,
+            "date": "2017-08-03T10:18:11.989Z"
+        },
+        "endLocation": {
+            "latitude": 50.68159,
+            "longitude": 3.1251764,
+            "altitude": 20.4,
+            "heading": 129.81,
+            "satellites": 10,
+            "date": "2017-08-03T10:35:56.822Z"
+        },
+        "beginDate": "2017-08-03T10:17:53Z",
+        "endDate": "2017-08-03T10:34:13Z",
+        "stopDate": "2017-08-03T10:34:13Z",
+        "creationDate": "2016-06-03T16:33:35.062Z",
+        "lastUpdateDate": "2016-06-03T16:33:35.062Z"
+    },
+    {
+        "id": "5751953f051f294cef4ee90e",
+        "beginLocation": {
+            "latitude": 50.681683,
+            "longitude": 3.1252503,
+            "altitude": 33.4,
+            "heading": 0,
+            "satellites": 5,
+            "date": "2017-08-03T10:46:26.844Z"
+        },
+        "endLocation": {
+            "latitude": 50.68195,
+            "longitude": 3.081815,
+            "altitude": 30.4,
+            "heading": 256.99,
+            "satellites": 12,
+            "date": "2017-08-03T10:56:54.673Z"
+        },
+        "beginDate": "2017-08-03T10:46:33.179Z",
+        "endDate": "2017-08-03T10:55:08.773Z",
+        "stopDate": "2017-08-03T10:55:08.773Z",
+        "creationDate": "2016-06-03T16:33:35.062Z",
+        "lastUpdateDate": "2016-06-03T16:33:35.062Z"
+    }
+]

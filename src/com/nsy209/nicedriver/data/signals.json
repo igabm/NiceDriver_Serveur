@@ -1,0 +1,4222 @@
+[
+    {
+        "date": "2017-08-03T10:46:35.179Z",
+        "value": 805.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:35.179Z",
+        "value": 2.1299999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:37.179Z",
+        "value": 809.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:37.179Z",
+        "value": 4.72,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:38.383Z",
+        "value": 14.312,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:46:39.179Z",
+        "value": 8.599999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:39.179Z",
+        "value": 1038.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:39.841Z",
+        "value": 1,
+        "name": "LockSts"
+    },
+    {
+        "date": "2017-08-03T10:46:41.179Z",
+        "value": 1388.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:41.179Z",
+        "value": 12.599999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:43.179Z",
+        "value": 1156.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:43.179Z",
+        "value": 18,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:45.179Z",
+        "value": 15.349999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:45.179Z",
+        "value": 1008.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:47.179Z",
+        "value": 8.71,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:47.179Z",
+        "value": 798,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:48.383Z",
+        "value": 14.281,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:46:49.179Z",
+        "value": 805,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:49.179Z",
+        "value": 0,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:51.179Z",
+        "value": 802.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:53.179Z",
+        "value": 801,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:55.179Z",
+        "value": 1.4,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:55.179Z",
+        "value": 811,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:57.179Z",
+        "value": 795.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:57.179Z",
+        "value": 4.89,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:59.124Z",
+        "value": 14.237,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:46:59.92Z",
+        "value": 1109,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:46:59.92Z",
+        "value": 9.11,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:01.92Z",
+        "value": 906,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:01.92Z",
+        "value": 9.61,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:03.92Z",
+        "value": 12.259999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:03.92Z",
+        "value": 1419,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:05.92Z",
+        "value": 17.83,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:05.92Z",
+        "value": 1166.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:07.92Z",
+        "value": 21.539999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:07.92Z",
+        "value": 1064,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:09.124Z",
+        "value": 14.2,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:47:09.92Z",
+        "value": 805.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:09.92Z",
+        "value": 15.58,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:11.483Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:11.483Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:11.763Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:11.763Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:11.92Z",
+        "value": 14,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:11.92Z",
+        "value": 804.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:12.083Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:12.083Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:12.403Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:12.403Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:12.723Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:12.723Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:13.043Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:13.043Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:13.363Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:13.363Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:13.683Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:13.683Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:13.92Z",
+        "value": 9.28,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:13.92Z",
+        "value": 811.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:14.003Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:14.003Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:14.323Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:14.323Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:14.643Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:14.643Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:14.963Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:15Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:15.32Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:15.32Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:15.64Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:15.64Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:15.957Z",
+        "value": 812.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:15.957Z",
+        "value": 0.56,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:15.96Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:15.96Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:16Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:16Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:16.28Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:16.28Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:16.92Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:16.92Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:17.24Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:17.24Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:17.561Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:17.561Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:17.88Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:17.88Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:17.957Z",
+        "value": 951.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:17.957Z",
+        "value": 1.06,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:18Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:18Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:18.52Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:18.52Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:18.84Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:18.84Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:19.16Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:19.16Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:19.161Z",
+        "value": 14.256,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:47:19.481Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:19.481Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:19.801Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:19.801Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:19.957Z",
+        "value": 1185.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:19.957Z",
+        "value": 9.95,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:20.12Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:20.12Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:20.44Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:20.44Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:20.76Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:21Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:21.32Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:21.32Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:21.64Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:21.64Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:21.961Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:21.961Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:22.197Z",
+        "value": 11.75,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:22.197Z",
+        "value": 990,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:22.281Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:22.281Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:22.601Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:22.601Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:22.92Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:47:22.92Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:47:24.197Z",
+        "value": 1284.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:24.197Z",
+        "value": 19.74,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:26.197Z",
+        "value": 1116.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:26.197Z",
+        "value": 25.08,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:28.197Z",
+        "value": 803,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:28.197Z",
+        "value": 22.66,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:29.401Z",
+        "value": 14.243,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:47:30.197Z",
+        "value": 805.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:30.197Z",
+        "value": 19.46,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:32.197Z",
+        "value": 14.28,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:32.197Z",
+        "value": 805.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:34.197Z",
+        "value": 8.71,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:34.197Z",
+        "value": 806.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:36.197Z",
+        "value": 1.8,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:36.197Z",
+        "value": 805.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:38.197Z",
+        "value": 0,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:38.197Z",
+        "value": 803,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:39.486Z",
+        "value": 14.25,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:47:40.197Z",
+        "value": 782.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:42.197Z",
+        "value": 815.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:42.197Z",
+        "value": 1.68,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:44.197Z",
+        "value": 1.4599999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:44.197Z",
+        "value": 801,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:46.197Z",
+        "value": 1.18,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:46.197Z",
+        "value": 805.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:48Z",
+        "value": 805.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:48Z",
+        "value": 0.95,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:49.289Z",
+        "value": 14.268,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:47:50Z",
+        "value": 0.95,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:50Z",
+        "value": 802.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:52Z",
+        "value": 0.56,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:52Z",
+        "value": 801.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:54Z",
+        "value": 0,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:54Z",
+        "value": 798.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:56Z",
+        "value": 0.78,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:56Z",
+        "value": 829.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:58Z",
+        "value": 802.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:58Z",
+        "value": 0,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:47:59.289Z",
+        "value": 14.262,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:48:00Z",
+        "value": 2.98,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:00Z",
+        "value": 768,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:02Z",
+        "value": 4.72,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:02Z",
+        "value": 781.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:04Z",
+        "value": 3.26,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:04Z",
+        "value": 797,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:06Z",
+        "value": 1414.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:06Z",
+        "value": 0.84,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:08Z",
+        "value": 12.54,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:08Z",
+        "value": 1486.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:09.289Z",
+        "value": 14.312,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:48:10Z",
+        "value": 13.889999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:10Z",
+        "value": 966,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:12Z",
+        "value": 940.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:12Z",
+        "value": 12.65,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:14Z",
+        "value": 801,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:14Z",
+        "value": 11.13,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:16Z",
+        "value": 8.83,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:16Z",
+        "value": 803.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:18Z",
+        "value": 3.48,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:18Z",
+        "value": 803.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:19.289Z",
+        "value": 14.231,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:48:20Z",
+        "value": 0,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:20Z",
+        "value": 806,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:22Z",
+        "value": 806.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:23.866Z",
+        "value": 809.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:25.866Z",
+        "value": 6.0099998,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:25.866Z",
+        "value": 866.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:27.866Z",
+        "value": 950,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:27.866Z",
+        "value": 8.429999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:29.157Z",
+        "value": 14.256,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:48:29.866Z",
+        "value": 766.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:29.866Z",
+        "value": 6.41,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:31.866Z",
+        "value": 810.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:31.866Z",
+        "value": 6.7999997,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:33.866Z",
+        "value": 6.24,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:33.866Z",
+        "value": 797,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:35.866Z",
+        "value": 0,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:35.866Z",
+        "value": 803.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:37.866Z",
+        "value": 802,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:39.157Z",
+        "value": 14.218,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:48:39.866Z",
+        "value": 807.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:41.866Z",
+        "value": 809.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:43.866Z",
+        "value": 4.61,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:43.866Z",
+        "value": 882.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:45.866Z",
+        "value": 804.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:45.866Z",
+        "value": 4.1,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:47.866Z",
+        "value": 0,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:47.866Z",
+        "value": 797.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:49.157Z",
+        "value": 14.218,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:48:49.866Z",
+        "value": 0.84,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:49.866Z",
+        "value": 804.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:51.866Z",
+        "value": 793.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:51.866Z",
+        "value": 5.4,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:53.866Z",
+        "value": 5.3399997,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:53.866Z",
+        "value": 802.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:55.866Z",
+        "value": 0,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:55.866Z",
+        "value": 804.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:57.866Z",
+        "value": 1143,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:59.157Z",
+        "value": 14.25,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:48:59.866Z",
+        "value": 3.09,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:48:59.866Z",
+        "value": 199051,
+        "name": "Odometer"
+    },
+    {
+        "date": "2017-08-03T10:48:59.866Z",
+        "value": 802.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:02Z",
+        "value": 802.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:02Z",
+        "value": 1.5699999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:04Z",
+        "value": 789.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:04Z",
+        "value": 0,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:06Z",
+        "value": 880,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:06Z",
+        "value": 3.1499999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:08Z",
+        "value": 1.91,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:08Z",
+        "value": 807.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:09.291Z",
+        "value": 14.25,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:49:10Z",
+        "value": 0,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:10Z",
+        "value": 793.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:12Z",
+        "value": 803.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:14Z",
+        "value": 802,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:16Z",
+        "value": 808.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:18Z",
+        "value": 810.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:19.291Z",
+        "value": 14.268,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:49:20Z",
+        "value": 3.26,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:20Z",
+        "value": 1098.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:22Z",
+        "value": 911.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:22Z",
+        "value": 7.2,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:24Z",
+        "value": 5.96,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:24Z",
+        "value": 809.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:24.767Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:24.767Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:25.047Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:25.047Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:25.367Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:25.367Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:25.687Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:25.687Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:26Z",
+        "value": 809.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:26Z",
+        "value": 5.23,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:26.007Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:26.007Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:26.327Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:26.327Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:26.647Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:26.647Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:26.967Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:26.967Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:27Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:27Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:27.32Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:27.32Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:27.64Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:27.64Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:27.713Z",
+        "value": 816.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:27.713Z",
+        "value": 5.06,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:27.96Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:27.96Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:28Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:28Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:28.28Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:28.28Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:28.92Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:28.92Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:29.006Z",
+        "value": 14.212,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:49:29.24Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:29.24Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:29.56Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:29.56Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:29.713Z",
+        "value": 3.7099998,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:29.713Z",
+        "value": 788.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:29.88Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:29.88Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:30Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:30Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:30.52Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:30.52Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:30.84Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:30.84Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:31Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:31Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:31.16Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:31.16Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:31.48Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:31.48Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:31.713Z",
+        "value": 4.72,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:31.713Z",
+        "value": 823.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:32.12Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:32.12Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:32.44Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:32.44Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:33Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:33Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:33.32Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:33.32Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:33.64Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:33.64Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:33.953Z",
+        "value": 2.98,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:33.953Z",
+        "value": 811.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:33.96Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:33.96Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:34Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:34Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:34.28Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:34.28Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:34.92Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:34.92Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:35.24Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:35.24Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:35.56Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:35.56Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:35.88Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:35.88Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:35.953Z",
+        "value": 0,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:35.953Z",
+        "value": 782.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:36Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:36Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:36.52Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:36.52Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:36.84Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:36.84Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:37Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:37Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:37.16Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:37.16Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:37.48Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:37.48Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:37.953Z",
+        "value": 1073.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:37.953Z",
+        "value": 3.03,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:38Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:38Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:38.12Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:38.12Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:38.32Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:38.32Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:38.44Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:38.44Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:38.489Z",
+        "value": 14.281,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:49:38.64Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:38.64Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:38.96Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:38.96Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:39Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:39Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:39.193Z",
+        "value": 810.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:39.193Z",
+        "value": 5.85,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:39.28Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:39.28Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:39.92Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:39.92Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:40.24Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:40.24Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:40.56Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:40.56Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:40.88Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:40.88Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:41Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:41Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:41.193Z",
+        "value": 9.45,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:41.193Z",
+        "value": 1113.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:41.521Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:41.521Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:41.84Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:41.84Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:42Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:42Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:42.16Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:42.16Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:42.48Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:42.48Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:43.12Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:43.12Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:43.193Z",
+        "value": 1348,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:43.193Z",
+        "value": 11.3,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:43.44Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:43.44Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:44Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:44Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:44.24Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:49:44.24Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:49:45.434Z",
+        "value": 13.099999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:45.434Z",
+        "value": 1562.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:47.434Z",
+        "value": 12.03,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:47.434Z",
+        "value": 1436,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:48.732Z",
+        "value": 14.306,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:49:49.434Z",
+        "value": 1421,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:49.434Z",
+        "value": 11.86,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:51.434Z",
+        "value": 1453,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:51.434Z",
+        "value": 12.2,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:53.434Z",
+        "value": 12.99,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:53.434Z",
+        "value": 1541.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:55.434Z",
+        "value": 1285,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:55.434Z",
+        "value": 10.29,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:57.434Z",
+        "value": 3.6499999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:57.434Z",
+        "value": 809.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:58.732Z",
+        "value": 14.206,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:49:59.434Z",
+        "value": 803.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:49:59.434Z",
+        "value": 0,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:01.434Z",
+        "value": 805.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:03.434Z",
+        "value": 805.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:05.434Z",
+        "value": 803.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:07.434Z",
+        "value": 2.9199998,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:07.434Z",
+        "value": 1480,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:08.732Z",
+        "value": 14.318,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:50:09.434Z",
+        "value": 897.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:09.434Z",
+        "value": 8.55,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:11.434Z",
+        "value": 805,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:11.434Z",
+        "value": 2.98,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:13.434Z",
+        "value": 0,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:13.434Z",
+        "value": 791.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:15.434Z",
+        "value": 2.75,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:15.434Z",
+        "value": 1133.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:17.434Z",
+        "value": 5.3399997,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:17.434Z",
+        "value": 880.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:18.732Z",
+        "value": 14.218,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:50:20Z",
+        "value": 0.66999996,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:20Z",
+        "value": 806.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:22Z",
+        "value": 1016.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:22Z",
+        "value": 0,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:24Z",
+        "value": 8.21,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:24Z",
+        "value": 981,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:26Z",
+        "value": 1216.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:26Z",
+        "value": 9.95,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:28Z",
+        "value": 1398.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:28Z",
+        "value": 17.77,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:29.298Z",
+        "value": 14.312,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:50:30Z",
+        "value": 1791.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:30Z",
+        "value": 27.56,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:32Z",
+        "value": 29.13,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:32Z",
+        "value": 1211.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:32.048Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:50:32.048Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:50:32.328Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:50:32.328Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:50:32.648Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:50:32.648Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:50:32.968Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:50:32.968Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:50:33.288Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:50:33.288Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:50:33.608Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:50:33.608Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:50:33.928Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:50:33.928Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:50:34Z",
+        "value": 1530.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:34Z",
+        "value": 36.61,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:34.248Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:50:34.248Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:50:34.568Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:50:34.568Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:50:34.888Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:50:34.888Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:50:35Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:50:35Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:50:35.152Z",
+        "value": 42.8,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:35.152Z",
+        "value": 1794.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:35.208Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:50:35.208Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:50:35.32Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:50:35.32Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:50:35.528Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:50:35.528Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:50:37.152Z",
+        "value": 48.93,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:37.152Z",
+        "value": 1506.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:38.45Z",
+        "value": 14.325,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:50:39.152Z",
+        "value": 1527.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:39.152Z",
+        "value": 49.44,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:41.152Z",
+        "value": 1521,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:41.152Z",
+        "value": 48.6,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:43.152Z",
+        "value": 47.079998,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:43.152Z",
+        "value": 1470,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:45.152Z",
+        "value": 1440.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:45.152Z",
+        "value": 46.51,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:47.152Z",
+        "value": 1444,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:47.152Z",
+        "value": 46.68,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:48.45Z",
+        "value": 14.343,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:50:49.152Z",
+        "value": 1528.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:49.152Z",
+        "value": 49.5,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:51.152Z",
+        "value": 1700.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:51.152Z",
+        "value": 54.949997,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:53.152Z",
+        "value": 1917,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:53.152Z",
+        "value": 62.43,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:55.152Z",
+        "value": 66.99,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:55.152Z",
+        "value": 1694.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:57.152Z",
+        "value": 71.15,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:57.152Z",
+        "value": 1707.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:58.45Z",
+        "value": 14.368,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:50:59.152Z",
+        "value": 77.28,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:50:59.152Z",
+        "value": 1853,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:01.152Z",
+        "value": 80.15,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:01.152Z",
+        "value": 1925.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:03.152Z",
+        "value": 80.43,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:03.152Z",
+        "value": 1915.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:05.152Z",
+        "value": 80.259995,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:05.152Z",
+        "value": 1941,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:07.152Z",
+        "value": 1864.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:08Z",
+        "value": 77.56,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:09.298Z",
+        "value": 14.337,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:51:10Z",
+        "value": 1805,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:10Z",
+        "value": 75.03,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:12Z",
+        "value": 72.729996,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:12Z",
+        "value": 1747.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:14Z",
+        "value": 1698.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:14Z",
+        "value": 70.53,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:16Z",
+        "value": 1676.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:16Z",
+        "value": 68.96,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:18Z",
+        "value": 1688,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:18Z",
+        "value": 70.2,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:19.298Z",
+        "value": 14.425,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:51:20Z",
+        "value": 69.24,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:20Z",
+        "value": 1668,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:22Z",
+        "value": 1682.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:22Z",
+        "value": 70.03,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:24Z",
+        "value": 71.1,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:24Z",
+        "value": 1709.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:26Z",
+        "value": 1701.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:26Z",
+        "value": 70.7,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:28Z",
+        "value": 70.869995,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:28Z",
+        "value": 1705.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:29.298Z",
+        "value": 14.425,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:51:30Z",
+        "value": 1694.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:30Z",
+        "value": 199052,
+        "name": "Odometer"
+    },
+    {
+        "date": "2017-08-03T10:51:30Z",
+        "value": 70.53,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:32Z",
+        "value": 70.36,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:32Z",
+        "value": 1690.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:34Z",
+        "value": 1710,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:34Z",
+        "value": 71.1,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:36Z",
+        "value": 73.4,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:36Z",
+        "value": 1766.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:38Z",
+        "value": 1743.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:38Z",
+        "value": 72.28,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:39.299Z",
+        "value": 14.431,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:51:40Z",
+        "value": 1727.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:40Z",
+        "value": 71.88,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:40Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:51:40Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:51:40.08Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:51:40.08Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:51:40.32Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:51:40.32Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:51:40.484Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:51:40.92Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:51:40.92Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:51:41.241Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:51:41.241Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:51:41.516Z",
+        "value": 73.51,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:41.516Z",
+        "value": 1768.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:41.56Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:51:41.56Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:51:41.881Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:51:41.881Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:51:42.201Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:51:42.201Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:51:42.521Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:51:42.521Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:51:42.84Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:51:42.84Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:51:43.161Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:51:43.161Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:51:43.481Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:51:43.481Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:51:43.516Z",
+        "value": 76.1,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:43.516Z",
+        "value": 1828.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:43.801Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:51:43.801Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:51:45.516Z",
+        "value": 1930.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:45.516Z",
+        "value": 80.49,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:47.516Z",
+        "value": 83.7,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:47.516Z",
+        "value": 2013.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:48.815Z",
+        "value": 14.456,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:51:49.516Z",
+        "value": 86.619995,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:49.516Z",
+        "value": 2080.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:51.516Z",
+        "value": 86.68,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:51.516Z",
+        "value": 2138.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:51:53.516Z",
+        "value": 2084,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:52:12Z",
+        "value": 1,
+        "name": "ComputedEngineState"
+    },
+    {
+        "date": "2017-08-03T10:52:22Z",
+        "value": 14.468,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:52:32.017Z",
+        "value": 14.475,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:52:42.017Z",
+        "value": 14.481,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:52:52.017Z",
+        "value": 14.487,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:53:02.017Z",
+        "value": 14.468,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:53:12.017Z",
+        "value": 14.412,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:53:22Z",
+        "value": 14.362,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:53:32.001Z",
+        "value": 14.375,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:53:42.001Z",
+        "value": 14.437,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:53:52.001Z",
+        "value": 14.387,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:54:02.157Z",
+        "value": 14.4,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:54:06.657Z",
+        "value": 0,
+        "name": "HighSpeedWiperSts"
+    },
+    {
+        "date": "2017-08-03T10:54:06.657Z",
+        "value": 0,
+        "name": "LowSpeedWiperSts"
+    },
+    {
+        "date": "2017-08-03T10:54:06.663Z",
+        "value": 1,
+        "name": "LockSts"
+    },
+    {
+        "date": "2017-08-03T10:54:06.663Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:06.663Z",
+        "value": 0,
+        "name": "HeadLightSts"
+    },
+    {
+        "date": "2017-08-03T10:54:06.663Z",
+        "value": 0,
+        "name": "HighBeamSts"
+    },
+    {
+        "date": "2017-08-03T10:54:06.663Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:06.663Z",
+        "value": 0,
+        "name": "LowBeamSts"
+    },
+    {
+        "date": "2017-08-03T10:54:06.663Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:07.617Z",
+        "value": 1322.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:07.617Z",
+        "value": 31.439999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:07.617Z",
+        "value": 199055,
+        "name": "Odometer"
+    },
+    {
+        "date": "2017-08-03T10:54:07.803Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:07.803Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:08.083Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:08.083Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:08.403Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:08.403Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:08.723Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:08.723Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:09.043Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:09.043Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:09.363Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:09.363Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:09.617Z",
+        "value": 1428.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:09.617Z",
+        "value": 33.86,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:09.683Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:09.683Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:10Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:10Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:10.003Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:10.003Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:10.32Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:10.32Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:10.323Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:10.323Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:10.64Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:10.64Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:10.96Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:10.96Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:10.974Z",
+        "value": 33.41,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:10.974Z",
+        "value": 1408,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:11Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:11Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:11.28Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:11.28Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:11.552Z",
+        "value": 14.368,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:54:11.92Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:11.92Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:12.24Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:12.24Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:12.56Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:12.56Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:12.88Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:12.88Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:12.974Z",
+        "value": 36.11,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:12.974Z",
+        "value": 1519.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:13Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:13Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:14.974Z",
+        "value": 41.059998,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:14.974Z",
+        "value": 1727,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:16.28Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:16.28Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:16.56Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:16.56Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:16.88Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:16.88Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:16.974Z",
+        "value": 41.79,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:16.974Z",
+        "value": 803,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:17Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:17Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:17.52Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:17.52Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:17.84Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:17.84Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:18Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:18Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:18.32Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:18.32Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:18.64Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:18.64Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:18.814Z",
+        "value": 856.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:18.814Z",
+        "value": 37.399998,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:18.96Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:18.96Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:19Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:19Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:19.28Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:19.28Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:19.92Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:19.92Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:20.24Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:20.24Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:20.56Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:20.56Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:20.814Z",
+        "value": 1743,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:20.814Z",
+        "value": 26.769999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:20.88Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:20.88Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:21Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:21Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:21.43Z",
+        "value": 14.343,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:54:21.521Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:21.521Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:21.841Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:21.841Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:22.16Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:22.16Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:22.48Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:22.48Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:22.801Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:22.801Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:22.814Z",
+        "value": 21.99,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:22.814Z",
+        "value": 1458,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:23.121Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:23.121Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:23.44Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:23.44Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:24Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:24Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:24.32Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:24.32Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:24.64Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:24.64Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:24.959Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:24.959Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:25Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:25Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:25.053Z",
+        "value": 1577.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:25.053Z",
+        "value": 24.75,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:25.28Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:25.28Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:25.919Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:25.919Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:26.24Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:26.24Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:26.56Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:26.56Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:26.88Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:26.88Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:27Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:27Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:27.053Z",
+        "value": 23.4,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:27.053Z",
+        "value": 1551.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:27.52Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:27.52Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:27.84Z",
+        "value": 1,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:27.84Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:28.16Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:28.16Z",
+        "value": 0,
+        "name": "RightIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:29.053Z",
+        "value": 22.1,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:29.053Z",
+        "value": 1447,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:31.053Z",
+        "value": 20.189999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:31.053Z",
+        "value": 1327.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:31.669Z",
+        "value": 14.437,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:54:33.053Z",
+        "value": 27.73,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:33.053Z",
+        "value": 1801.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:35.053Z",
+        "value": 838.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:35.053Z",
+        "value": 28.349998,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:37Z",
+        "value": 23.17,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:37Z",
+        "value": 27.58888,
+        "name": "FuelLevel"
+    },
+    {
+        "date": "2017-08-03T10:54:37Z",
+        "value": 798.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:39Z",
+        "value": 1768.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:39Z",
+        "value": 22.16,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:41Z",
+        "value": 809,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:41Z",
+        "value": 21.82,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:41.616Z",
+        "value": 14.5,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:54:43Z",
+        "value": 24.63,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:43Z",
+        "value": 1598.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:45Z",
+        "value": 24.75,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:45Z",
+        "value": 807,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:46.427Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:46.427Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:46.707Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:46.707Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:47Z",
+        "value": 807.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:47Z",
+        "value": 22.55,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:47.027Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:47.027Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:47.347Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:47.347Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:47.667Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:47.667Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:47.987Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:47.987Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:48.307Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:48.307Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:48.627Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:48.627Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:48.947Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:48.947Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:49Z",
+        "value": 806.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:49Z",
+        "value": 19.289999,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:49.267Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:49.267Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:49.587Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:49.587Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:49.907Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:49.907Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:50Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:50.227Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:50.32Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:50.32Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:50.64Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:50.64Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:50.773Z",
+        "value": 806.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:50.773Z",
+        "value": 16.81,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:50.96Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:50.96Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:51Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:51Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:51.28Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:51.28Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:51.389Z",
+        "value": 14.331,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:54:51.92Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:51.92Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:52Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:52Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:52.24Z",
+        "value": 0,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:52.24Z",
+        "value": 0,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:52.56Z",
+        "value": 1,
+        "name": "LeftIndicatorSts"
+    },
+    {
+        "date": "2017-08-03T10:54:52.56Z",
+        "value": 1,
+        "name": "HazardSts"
+    },
+    {
+        "date": "2017-08-03T10:54:52.773Z",
+        "value": 801.25,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:52.773Z",
+        "value": 13.21,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:54.773Z",
+        "value": 806.75,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:54.773Z",
+        "value": 2.4099998,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:56.773Z",
+        "value": 2.36,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:56.773Z",
+        "value": 799.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:58.773Z",
+        "value": 4.61,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:54:58.773Z",
+        "value": 833.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:55:00.773Z",
+        "value": 809,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:55:00.773Z",
+        "value": 2.47,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:55:01.389Z",
+        "value": 14.356,
+        "name": "BatteryVoltage"
+    },
+    {
+        "date": "2017-08-03T10:55:02.773Z",
+        "value": 812.5,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:55:02.773Z",
+        "value": 2.36,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:55:04.773Z",
+        "value": 2.81,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:55:04.773Z",
+        "value": 803,
+        "name": "EngineSpeed"
+    },
+    {
+        "date": "2017-08-03T10:55:06.773Z",
+        "value": 1.74,
+        "name": "VehiculeSpeed"
+    },
+    {
+        "date": "2017-08-03T10:55:06.773Z",
+        "value": 804.25,
+        "name": "EngineSpeed"
+    }
+]
