@@ -1,12 +1,6 @@
-import javax.ws.rs.core.MediaType;
-
-import org.codehaus.jackson.JsonParseException;
-import org.codehaus.jackson.map.JsonMappingException;
-import org.codehaus.jackson.map.ObjectMapper;
-import org.codehaus.jettison.json.JSONException;
-import org.codehaus.jettison.json.JSONObject;
-
+package com.nsy209.nicedriver;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,14 +8,26 @@ import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.apache.commons.io.IOUtils;
+import org.codehaus.jackson.JsonParseException;
+import org.codehaus.jackson.map.JsonMappingException;
+import org.codehaus.jackson.map.ObjectMapper;
+import org.codehaus.jettison.json.JSONException;
+import org.codehaus.jettison.json.JSONObject;
+import org.jboss.resteasy.plugins.providers.jaxb.json.JsonParsing;
 
 @Path("/points")
 public class PointWS {
 	@GET
-	@Path("/points")
+	@Path("/trip")
 	@Produces(MediaType.APPLICATION_JSON)
-	public String test() {
-		return "Toto";
+	public String test() throws IOException {
+		InputStream is = 
+                JsonParsing.class.getResourceAsStream("/com/nsy209/nicedriver/data/trip.json");
+        String jsonTxt = IOUtils.toString(is);
+		return jsonTxt;
 	}
 
 	@POST

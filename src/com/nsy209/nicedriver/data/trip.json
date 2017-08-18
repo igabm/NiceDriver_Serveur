@@ -1,0 +1,754 @@
+[
+    {
+        "latitude": 50.681656,
+        "longitude": 3.12521,
+        "altitude": 36.5,
+        "heading": 174.05,
+        "satellites": 10,
+        "date": "2017-08-03T10:46:37.269Z"
+    },
+    {
+        "latitude": 50.68156,
+        "longitude": 3.1252432,
+        "altitude": 34.2,
+        "heading": 108.18,
+        "satellites": 10,
+        "date": "2017-08-03T10:46:42.26Z"
+    },
+    {
+        "latitude": 50.681496,
+        "longitude": 3.1255014,
+        "altitude": 27.3,
+        "heading": 119.33,
+        "satellites": 11,
+        "date": "2017-08-03T10:46:47.254Z"
+    },
+    {
+        "latitude": 50.681454,
+        "longitude": 3.1255915,
+        "altitude": 26.1,
+        "heading": 119.33,
+        "satellites": 11,
+        "date": "2017-08-03T10:46:52.288Z"
+    },
+    {
+        "latitude": 50.68144,
+        "longitude": 3.1255982,
+        "altitude": 25.8,
+        "heading": 114.91,
+        "satellites": 11,
+        "date": "2017-08-03T10:46:58Z"
+    },
+    {
+        "latitude": 50.681347,
+        "longitude": 3.1256166,
+        "altitude": 25.1,
+        "heading": 122.4,
+        "satellites": 11,
+        "date": "2017-08-03T10:47:03.039Z"
+    },
+    {
+        "latitude": 50.681232,
+        "longitude": 3.1257985,
+        "altitude": 24.6,
+        "heading": 115.01,
+        "satellites": 11,
+        "date": "2017-08-03T10:47:08.007Z"
+    },
+    {
+        "latitude": 50.681137,
+        "longitude": 3.1261017,
+        "altitude": 24.5,
+        "heading": 115.4,
+        "satellites": 11,
+        "date": "2017-08-03T10:47:13.029Z"
+    },
+    {
+        "latitude": 50.68111,
+        "longitude": 3.1262152,
+        "altitude": 24.3,
+        "heading": 115.4,
+        "satellites": 11,
+        "date": "2017-08-03T10:47:18.078Z"
+    },
+    {
+        "latitude": 50.681175,
+        "longitude": 3.1262984,
+        "altitude": 25,
+        "heading": 107.13,
+        "satellites": 11,
+        "date": "2017-08-03T10:47:23.295Z"
+    },
+    {
+        "latitude": 50.681355,
+        "longitude": 3.1264699,
+        "altitude": 23.7,
+        "heading": 99.55,
+        "satellites": 12,
+        "date": "2017-08-03T10:47:28.32Z"
+    },
+    {
+        "latitude": 50.68156,
+        "longitude": 3.1266465,
+        "altitude": 23.6,
+        "heading": 92.06,
+        "satellites": 11,
+        "date": "2017-08-03T10:47:33.315Z"
+    },
+    {
+        "latitude": 50.681656,
+        "longitude": 3.1267085,
+        "altitude": 23.1,
+        "heading": 89.73,
+        "satellites": 11,
+        "date": "2017-08-03T10:47:38.299Z"
+    },
+    {
+        "latitude": 50.681664,
+        "longitude": 3.1267233,
+        "altitude": 22.9,
+        "heading": 86.39,
+        "satellites": 12,
+        "date": "2017-08-03T10:47:43.334Z"
+    },
+    {
+        "latitude": 50.681683,
+        "longitude": 3.1267297,
+        "altitude": 23.7,
+        "heading": 84.98,
+        "satellites": 11,
+        "date": "2017-08-03T10:47:48.087Z"
+    },
+    {
+        "latitude": 50.681683,
+        "longitude": 3.1267314,
+        "altitude": 23.5,
+        "heading": 84.21,
+        "satellites": 11,
+        "date": "2017-08-03T10:47:53.117Z"
+    },
+    {
+        "latitude": 50.68169,
+        "longitude": 3.126735,
+        "altitude": 23.3,
+        "heading": 84.21,
+        "satellites": 12,
+        "date": "2017-08-03T10:47:58.101Z"
+    },
+    {
+        "latitude": 50.681698,
+        "longitude": 3.1267416,
+        "altitude": 23.3,
+        "heading": 84.21,
+        "satellites": 12,
+        "date": "2017-08-03T10:48:03.125Z"
+    },
+    {
+        "latitude": 50.681763,
+        "longitude": 3.1267817,
+        "altitude": 23.1,
+        "heading": 84.21,
+        "satellites": 12,
+        "date": "2017-08-03T10:48:08.153Z"
+    },
+    {
+        "latitude": 50.681805,
+        "longitude": 3.1269517,
+        "altitude": 23.5,
+        "heading": 85.89,
+        "satellites": 12,
+        "date": "2017-08-03T10:48:13.099Z"
+    },
+    {
+        "latitude": 50.681786,
+        "longitude": 3.1271281,
+        "altitude": 23.2,
+        "heading": 89.34,
+        "satellites": 11,
+        "date": "2017-08-03T10:48:18Z"
+    },
+    {
+        "latitude": 50.681778,
+        "longitude": 3.1271667,
+        "altitude": 22.7,
+        "heading": 89.34,
+        "satellites": 12,
+        "date": "2017-08-03T10:48:23Z"
+    },
+    {
+        "latitude": 50.681763,
+        "longitude": 3.1271765,
+        "altitude": 22.6,
+        "heading": 90.98,
+        "satellites": 11,
+        "date": "2017-08-03T10:48:27.968Z"
+    },
+    {
+        "latitude": 50.68172,
+        "longitude": 3.1273081,
+        "altitude": 23.2,
+        "heading": 94.57,
+        "satellites": 11,
+        "date": "2017-08-03T10:48:32.988Z"
+    },
+    {
+        "latitude": 50.681698,
+        "longitude": 3.1273768,
+        "altitude": 24.4,
+        "heading": 94.57,
+        "satellites": 12,
+        "date": "2017-08-03T10:48:37.97Z"
+    },
+    {
+        "latitude": 50.681698,
+        "longitude": 3.1273916,
+        "altitude": 24.9,
+        "heading": 94.57,
+        "satellites": 12,
+        "date": "2017-08-03T10:48:43.006Z"
+    },
+    {
+        "latitude": 50.68169,
+        "longitude": 3.1274047,
+        "altitude": 24.7,
+        "heading": 94.57,
+        "satellites": 11,
+        "date": "2017-08-03T10:48:47.987Z"
+    },
+    {
+        "latitude": 50.681664,
+        "longitude": 3.1274266,
+        "altitude": 24.5,
+        "heading": 98.14,
+        "satellites": 11,
+        "date": "2017-08-03T10:48:52.993Z"
+    },
+    {
+        "latitude": 50.68165,
+        "longitude": 3.127467,
+        "altitude": 24.2,
+        "heading": 98.14,
+        "satellites": 12,
+        "date": "2017-08-03T10:48:57.996Z"
+    },
+    {
+        "latitude": 50.68165,
+        "longitude": 3.127485,
+        "altitude": 24.1,
+        "heading": 101.4,
+        "satellites": 12,
+        "date": "2017-08-03T10:49:03.096Z"
+    },
+    {
+        "latitude": 50.68165,
+        "longitude": 3.1275365,
+        "altitude": 24.1,
+        "heading": 78.18,
+        "satellites": 11,
+        "date": "2017-08-03T10:49:08.107Z"
+    },
+    {
+        "latitude": 50.681633,
+        "longitude": 3.1275666,
+        "altitude": 24.3,
+        "heading": 78.18,
+        "satellites": 11,
+        "date": "2017-08-03T10:49:13.092Z"
+    },
+    {
+        "latitude": 50.681625,
+        "longitude": 3.1275766,
+        "altitude": 24.5,
+        "heading": 78.18,
+        "satellites": 11,
+        "date": "2017-08-03T10:49:18Z"
+    },
+    {
+        "latitude": 50.681633,
+        "longitude": 3.1275966,
+        "altitude": 24.7,
+        "heading": 76.04,
+        "satellites": 12,
+        "date": "2017-08-03T10:49:23.112Z"
+    },
+    {
+        "latitude": 50.68169,
+        "longitude": 3.1276631,
+        "altitude": 25.2,
+        "heading": 70.27,
+        "satellites": 12,
+        "date": "2017-08-03T10:49:27.819Z"
+    },
+    {
+        "latitude": 50.681747,
+        "longitude": 3.1276865,
+        "altitude": 25.6,
+        "heading": 359.31,
+        "satellites": 11,
+        "date": "2017-08-03T10:49:33.086Z"
+    },
+    {
+        "latitude": 50.681755,
+        "longitude": 3.12769,
+        "altitude": 25.6,
+        "heading": 359.31,
+        "satellites": 11,
+        "date": "2017-08-03T10:49:38.053Z"
+    },
+    {
+        "latitude": 50.681778,
+        "longitude": 3.1277134,
+        "altitude": 25.7,
+        "heading": 16.95,
+        "satellites": 12,
+        "date": "2017-08-03T10:49:42.317Z"
+    },
+    {
+        "latitude": 50.681908,
+        "longitude": 3.127808,
+        "altitude": 26.3,
+        "heading": 17.99,
+        "satellites": 12,
+        "date": "2017-08-03T10:49:47.545Z"
+    },
+    {
+        "latitude": 50.682056,
+        "longitude": 3.1279283,
+        "altitude": 26.8,
+        "heading": 19.05,
+        "satellites": 12,
+        "date": "2017-08-03T10:49:52.522Z"
+    },
+    {
+        "latitude": 50.682186,
+        "longitude": 3.1280248,
+        "altitude": 27.4,
+        "heading": 19.85,
+        "satellites": 12,
+        "date": "2017-08-03T10:49:57.564Z"
+    },
+    {
+        "latitude": 50.682228,
+        "longitude": 3.1280715,
+        "altitude": 28.4,
+        "heading": 19.85,
+        "satellites": 11,
+        "date": "2017-08-03T10:50:02.548Z"
+    },
+    {
+        "latitude": 50.682228,
+        "longitude": 3.1280868,
+        "altitude": 29.3,
+        "heading": 19.85,
+        "satellites": 12,
+        "date": "2017-08-03T10:50:07.556Z"
+    },
+    {
+        "latitude": 50.682236,
+        "longitude": 3.1281016,
+        "altitude": 29.8,
+        "heading": 22.06,
+        "satellites": 12,
+        "date": "2017-08-03T10:50:12.556Z"
+    },
+    {
+        "latitude": 50.682285,
+        "longitude": 3.12815,
+        "altitude": 29.8,
+        "heading": 22.6,
+        "satellites": 12,
+        "date": "2017-08-03T10:50:17.558Z"
+    },
+    {
+        "latitude": 50.682323,
+        "longitude": 3.1281765,
+        "altitude": 29.5,
+        "heading": 24.84,
+        "satellites": 11,
+        "date": "2017-08-03T10:50:23.102Z"
+    },
+    {
+        "latitude": 50.68239,
+        "longitude": 3.1283035,
+        "altitude": 29.4,
+        "heading": 28.35,
+        "satellites": 12,
+        "date": "2017-08-03T10:50:28.104Z"
+    },
+    {
+        "latitude": 50.682602,
+        "longitude": 3.128615,
+        "altitude": 28.6,
+        "heading": 35.84,
+        "satellites": 12,
+        "date": "2017-08-03T10:50:33.104Z"
+    },
+    {
+        "latitude": 50.68291,
+        "longitude": 3.1292114,
+        "altitude": 27.3,
+        "heading": 59.47,
+        "satellites": 11,
+        "date": "2017-08-03T10:50:37.262Z"
+    },
+    {
+        "latitude": 50.683105,
+        "longitude": 3.1300735,
+        "altitude": 27,
+        "heading": 83.53,
+        "satellites": 11,
+        "date": "2017-08-03T10:50:42.248Z"
+    },
+    {
+        "latitude": 50.682854,
+        "longitude": 3.1305919,
+        "altitude": 28.6,
+        "heading": 174.3,
+        "satellites": 11,
+        "date": "2017-08-03T10:50:47.262Z"
+    },
+    {
+        "latitude": 50.68234,
+        "longitude": 3.1302383,
+        "altitude": 29.6,
+        "heading": 225.99,
+        "satellites": 11,
+        "date": "2017-08-03T10:50:52.243Z"
+    },
+    {
+        "latitude": 50.681843,
+        "longitude": 3.1293051,
+        "altitude": 29.9,
+        "heading": 233.84,
+        "satellites": 10,
+        "date": "2017-08-03T10:50:57.244Z"
+    },
+    {
+        "latitude": 50.681297,
+        "longitude": 3.128115,
+        "altitude": 30.2,
+        "heading": 234.9,
+        "satellites": 10,
+        "date": "2017-08-03T10:51:02.262Z"
+    },
+    {
+        "latitude": 50.6807,
+        "longitude": 3.1268682,
+        "altitude": 27.4,
+        "heading": 232.14,
+        "satellites": 10,
+        "date": "2017-08-03T10:51:08.062Z"
+    },
+    {
+        "latitude": 50.680096,
+        "longitude": 3.125715,
+        "altitude": 25.1,
+        "heading": 231.67,
+        "satellites": 11,
+        "date": "2017-08-03T10:51:13.13Z"
+    },
+    {
+        "latitude": 50.679653,
+        "longitude": 3.12453,
+        "altitude": 25.9,
+        "heading": 252.07,
+        "satellites": 11,
+        "date": "2017-08-03T10:51:18.12Z"
+    },
+    {
+        "latitude": 50.679615,
+        "longitude": 3.1232285,
+        "altitude": 31.6,
+        "heading": 282.38,
+        "satellites": 11,
+        "date": "2017-08-03T10:51:23.119Z"
+    },
+    {
+        "latitude": 50.679916,
+        "longitude": 3.1219585,
+        "altitude": 31.7,
+        "heading": 299.07,
+        "satellites": 11,
+        "date": "2017-08-03T10:51:28.129Z"
+    },
+    {
+        "latitude": 50.680386,
+        "longitude": 3.1208034,
+        "altitude": 31.9,
+        "heading": 307.22,
+        "satellites": 11,
+        "date": "2017-08-03T10:51:33.112Z"
+    },
+    {
+        "latitude": 50.680973,
+        "longitude": 3.1197536,
+        "altitude": 32.4,
+        "heading": 315.01,
+        "satellites": 11,
+        "date": "2017-08-03T10:51:38.107Z"
+    },
+    {
+        "latitude": 50.681633,
+        "longitude": 3.11877,
+        "altitude": 34,
+        "heading": 317.39,
+        "satellites": 12,
+        "date": "2017-08-03T10:51:42.622Z"
+    },
+    {
+        "latitude": 50.6823,
+        "longitude": 3.1177049,
+        "altitude": 33.8,
+        "heading": 312.91,
+        "satellites": 11,
+        "date": "2017-08-03T10:51:47.627Z"
+    },
+    {
+        "latitude": 50.68296,
+        "longitude": 3.1164017,
+        "altitude": 32.2,
+        "heading": 305.16,
+        "satellites": 11,
+        "date": "2017-08-03T10:51:52.632Z"
+    },
+    {
+        "latitude": 50.68506,
+        "longitude": 3.10118,
+        "altitude": 17.6,
+        "heading": 270.78,
+        "satellites": 10,
+        "date": "2017-08-03T10:52:39.869Z"
+    },
+    {
+        "latitude": 50.68506,
+        "longitude": 3.0994685,
+        "altitude": 16.6,
+        "heading": 268.23,
+        "satellites": 10,
+        "date": "2017-08-03T10:52:44.892Z"
+    },
+    {
+        "latitude": 50.68501,
+        "longitude": 3.0977468,
+        "altitude": 16.7,
+        "heading": 266.05,
+        "satellites": 10,
+        "date": "2017-08-03T10:52:49.867Z"
+    },
+    {
+        "latitude": 50.684914,
+        "longitude": 3.0960531,
+        "altitude": 16.4,
+        "heading": 263.97,
+        "satellites": 10,
+        "date": "2017-08-03T10:52:54.919Z"
+    },
+    {
+        "latitude": 50.68479,
+        "longitude": 3.0944,
+        "altitude": 19.6,
+        "heading": 262.61,
+        "satellites": 10,
+        "date": "2017-08-03T10:52:59.892Z"
+    },
+    {
+        "latitude": 50.684628,
+        "longitude": 3.0927699,
+        "altitude": 21.4,
+        "heading": 260.67,
+        "satellites": 10,
+        "date": "2017-08-03T10:53:04.882Z"
+    },
+    {
+        "latitude": 50.684464,
+        "longitude": 3.0912063,
+        "altitude": 22.9,
+        "heading": 261.58,
+        "satellites": 10,
+        "date": "2017-08-03T10:53:09.902Z"
+    },
+    {
+        "latitude": 50.684326,
+        "longitude": 3.0897934,
+        "altitude": 23.6,
+        "heading": 261.58,
+        "satellites": 10,
+        "date": "2017-08-03T10:53:14.896Z"
+    },
+    {
+        "latitude": 50.68421,
+        "longitude": 3.0885153,
+        "altitude": 24.3,
+        "heading": 262.58,
+        "satellites": 10,
+        "date": "2017-08-03T10:53:19.916Z"
+    },
+    {
+        "latitude": 50.684105,
+        "longitude": 3.0873616,
+        "altitude": 24.4,
+        "heading": 263.58,
+        "satellites": 12,
+        "date": "2017-08-03T10:53:24.929Z"
+    },
+    {
+        "latitude": 50.684105,
+        "longitude": 3.0864182,
+        "altitude": 24.5,
+        "heading": 270.27,
+        "satellites": 12,
+        "date": "2017-08-03T10:53:29.892Z"
+    },
+    {
+        "latitude": 50.68414,
+        "longitude": 3.0855632,
+        "altitude": 24.1,
+        "heading": 277.43,
+        "satellites": 11,
+        "date": "2017-08-03T10:53:34.886Z"
+    },
+    {
+        "latitude": 50.684155,
+        "longitude": 3.0852447,
+        "altitude": 25.6,
+        "heading": 277.43,
+        "satellites": 12,
+        "date": "2017-08-03T10:53:39.897Z"
+    },
+    {
+        "latitude": 50.68424,
+        "longitude": 3.0851283,
+        "altitude": 27.1,
+        "heading": 280.38,
+        "satellites": 10,
+        "date": "2017-08-03T10:53:44.888Z"
+    },
+    {
+        "latitude": 50.68417,
+        "longitude": 3.0847366,
+        "altitude": 29.6,
+        "heading": 245.42,
+        "satellites": 10,
+        "date": "2017-08-03T10:53:49.897Z"
+    },
+    {
+        "latitude": 50.683903,
+        "longitude": 3.08461,
+        "altitude": 26.8,
+        "heading": 161.03,
+        "satellites": 10,
+        "date": "2017-08-03T10:53:54.884Z"
+    },
+    {
+        "latitude": 50.683537,
+        "longitude": 3.0846634,
+        "altitude": 26.4,
+        "heading": 188.47,
+        "satellites": 9,
+        "date": "2017-08-03T10:53:59.864Z"
+    },
+    {
+        "latitude": 50.68317,
+        "longitude": 3.0843384,
+        "altitude": 21.2,
+        "heading": 236.49,
+        "satellites": 7,
+        "date": "2017-08-03T10:54:04.859Z"
+    },
+    {
+        "latitude": 50.682926,
+        "longitude": 3.0841532,
+        "altitude": 18.7,
+        "heading": 163.47,
+        "satellites": 7,
+        "date": "2017-08-03T10:54:09.869Z"
+    },
+    {
+        "latitude": 50.68251,
+        "longitude": 3.0842102,
+        "altitude": 18.3,
+        "heading": 190.16,
+        "satellites": 9,
+        "date": "2017-08-03T10:54:14.239Z"
+    },
+    {
+        "latitude": 50.68204,
+        "longitude": 3.0840733,
+        "altitude": 18.9,
+        "heading": 193.75,
+        "satellites": 11,
+        "date": "2017-08-03T10:54:19.079Z"
+    },
+    {
+        "latitude": 50.681786,
+        "longitude": 3.08379,
+        "altitude": 18.5,
+        "heading": 261.74,
+        "satellites": 12,
+        "date": "2017-08-03T10:54:24.364Z"
+    },
+    {
+        "latitude": 50.6819,
+        "longitude": 3.083575,
+        "altitude": 19.4,
+        "heading": 359.09,
+        "satellites": 11,
+        "date": "2017-08-03T10:54:29.302Z"
+    },
+    {
+        "latitude": 50.68203,
+        "longitude": 3.083288,
+        "altitude": 20.3,
+        "heading": 266.72,
+        "satellites": 11,
+        "date": "2017-08-03T10:54:34.364Z"
+    },
+    {
+        "latitude": 50.68203,
+        "longitude": 3.082815,
+        "altitude": 22.4,
+        "heading": 267.25,
+        "satellites": 12,
+        "date": "2017-08-03T10:54:39.31Z"
+    },
+    {
+        "latitude": 50.682,
+        "longitude": 3.0823781,
+        "altitude": 21.7,
+        "heading": 266.64,
+        "satellites": 11,
+        "date": "2017-08-03T10:54:44.288Z"
+    },
+    {
+        "latitude": 50.681965,
+        "longitude": 3.0819418,
+        "altitude": 22.9,
+        "heading": 268.42,
+        "satellites": 12,
+        "date": "2017-08-03T10:54:49.316Z"
+    },
+    {
+        "latitude": 50.681934,
+        "longitude": 3.0817382,
+        "altitude": 25.5,
+        "heading": 260.04,
+        "satellites": 10,
+        "date": "2017-08-03T10:54:54.047Z"
+    },
+    {
+        "latitude": 50.68192,
+        "longitude": 3.0817368,
+        "altitude": 26.8,
+        "heading": 260.04,
+        "satellites": 11,
+        "date": "2017-08-03T10:54:59.085Z"
+    },
+    {
+        "latitude": 50.681942,
+        "longitude": 3.081775,
+        "altitude": 28.3,
+        "heading": 259.15,
+        "satellites": 10,
+        "date": "2017-08-03T10:55:04.084Z"
+    }
+]
