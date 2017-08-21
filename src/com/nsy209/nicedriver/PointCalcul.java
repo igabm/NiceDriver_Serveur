@@ -7,6 +7,7 @@ public class PointCalcul {
 	Date date;
 	double valeur;
 	String couleur;
+	String type;
 
 	public double getLatitude() {
 		return latitude;
@@ -46,6 +47,14 @@ public class PointCalcul {
 
 	public void setCouleur(String couleur) {
 		this.couleur = couleur;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
 	}
 
 }

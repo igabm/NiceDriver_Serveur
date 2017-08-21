@@ -1,13 +1,17 @@
 package com.nsy209.nicedriver;
+
 import java.io.IOException;
 import java.io.InputStream;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
 import org.apache.commons.io.IOUtils;
@@ -20,44 +24,86 @@ import org.jboss.resteasy.plugins.providers.jaxb.json.JsonParsing;
 
 @Path("/points")
 public class PointWS {
+
+	public Connection connectionDB() throws InstantiationException, IllegalAccessException, SQLException {
+		String url = "jdbc:mysql://91.134.139.64:32768/NiceDriver_Data";
+		try {
+			Class.forName("com.mysql.jdbc.Driver").newInstance();
+			;
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Connection con = DriverManager.getConnection(url, "root", "projetCNAM");
+		return con;
+	}
+
 	@GET
 	@Path("/locations")
 	@Produces(MediaType.APPLICATION_JSON)
 	public String locations() throws IOException {
-		InputStream is = 
-                JsonParsing.class.getResourceAsStream("/com/nsy209/nicedriver/data/locations.json");
-        String jsonTxt = IOUtils.toString(is);
+		InputStream is = JsonParsing.class.getResourceAsStream("/com/nsy209/nicedriver/data/locations.json");
+		String jsonTxt = IOUtils.toString(is);
 		return jsonTxt;
 	}
-	
+
 	@GET
 	@Path("/trips")
 	@Produces(MediaType.APPLICATION_JSON)
 	public String trips() throws IOException {
-		InputStream is = 
-                JsonParsing.class.getResourceAsStream("/com/nsy209/nicedriver/data/trips.json");
-        String jsonTxt = IOUtils.toString(is);
+		InputStream is = JsonParsing.class.getResourceAsStream("/com/nsy209/nicedriver/data/trips.json");
+		String jsonTxt = IOUtils.toString(is);
 		return jsonTxt;
 	}
-	
+
 	@GET
 	@Path("/signals")
 	@Produces(MediaType.APPLICATION_JSON)
 	public String signals() throws IOException {
-		InputStream is = 
-                JsonParsing.class.getResourceAsStream("/com/nsy209/nicedriver/data/signals.json");
-        String jsonTxt = IOUtils.toString(is);
+		InputStream is = JsonParsing.class.getResourceAsStream("/com/nsy209/nicedriver/data/signals.json");
+		String jsonTxt = IOUtils.toString(is);
 		return jsonTxt;
+	}
+
+	@GET
+	@Path("{type}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<PointCalcul> getListePoint(@PathParam("type") String type, @QueryParam("longitude1") double longitude1,
+			@QueryParam("latitude1") double latitude1, @QueryParam("longitude2") double longitude2,
+			@QueryParam("latitude2") double latitude2)
+			throws IOException, InstantiationException, IllegalAccessException, SQLException {
+
+		List<PointCalcul> pointsCalcul = new ArrayList<PointCalcul>();
+
+		Connection con = this.connectionDB();
+
+		Statement stmt = con.createStatement();
+		ResultSet resultats = stmt.executeQuery("SELECT * FROM PointCalcul WHERE type=\"" + type + "\"");
+
+		while (resultats.next()) {
+			PointCalcul pointCalcul = new PointCalcul();
+			pointCalcul.setCouleur(resultats.getString("couleur"));
+			pointCalcul.setLatitude(resultats.getDouble("latitude"));
+			pointCalcul.setLongitude(resultats.getDouble("longitude"));
+			pointCalcul.setDate(resultats.getDate("date"));
+			pointCalcul.setValeur(resultats.getDouble("valeur"));
+			pointCalcul.setType(resultats.getString("type"));
+			pointsCalcul.add(pointCalcul);
+		}
+		resultats.close();
+
+		return pointsCalcul;
 	}
 
 	@POST
 	@Path("")
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<PointCalcul> getListePoint(String data)
-			throws JSONException, JsonParseException, JsonMappingException, IOException {
+	public List<PointCalcul> getListePointTrajet(String data) throws JSONException, JsonParseException,
+			JsonMappingException, IOException, SQLException, InstantiationException, IllegalAccessException {
 
-		System.out.println(data);
-		
+		Connection con = this.connectionDB();
+		Statement stmt = con.createStatement();
+
 		List<PointCalcul> pointsCalcul = new ArrayList<PointCalcul>();
 
 		JSONObject jsonObject = new JSONObject(data);
@@ -65,7 +111,7 @@ public class PointWS {
 		ObjectMapper mapper = new ObjectMapper();
 		String jsonPointsTrajet = jsonObject.getJSONArray("locations").toString();
 		String jsonSignal = jsonObject.getJSONArray("signals").toString();
-		
+
 		List<PointTrajet> pointsTrajet = mapper.readValue(jsonPointsTrajet,
 				mapper.getTypeFactory().constructParametricType(List.class, PointTrajet.class));
 
@@ -79,8 +125,6 @@ public class PointWS {
 			long dateSignal = signal.getDate().getTime();
 
 			long min = 0;
-
-			System.out.println("dateSignal : " + dateSignal);
 
 			for (PointTrajet pointTrajet : pointsTrajet) {
 
@@ -109,29 +153,27 @@ public class PointWS {
 					}
 
 				}
-				System.out.println("date du signal : " + signal.getDate());
-				System.out.println("date de A : " + A.getDate());
-				System.out.println("date de B : " + B.getDate());
-				System.out.println("----------------------");
-				System.out.println("lon de A : " + A.getLongitude());
-				System.out.println("lat de A : " + A.getLatitude());
-				System.out.println("----------------------");
-				System.out.println("lon de B : " + B.getLongitude());
-				System.out.println("lat de B : " + B.getLatitude());
-				System.out.println("----------------------");
 
 				PointCalcul pointCalcul = this.midPoint(A, B);
 
-				System.out.println("lon de Final : " + pointCalcul.getLongitude());
-				System.out.println("lat de Final : " + pointCalcul.getLatitude());
-				System.out.println("_______________________________________________");
-
 				pointCalcul.setDate(signal.getDate());
 				pointCalcul.setValeur(signal.getValue());
+				pointCalcul.setType(signal.getName());
+
+				new java.sql.Timestamp(pointCalcul.getDate().getTime());
+
+				stmt.executeUpdate(
+						"INSERT INTO `PointCalcul` (`id`, `latitude`, `longitude`, `date`, `valeur`, `couleur`, `type`) VALUES (NULL, '"
+								+ pointCalcul.getLatitude() + "', '" + pointCalcul.getLongitude() + "', '"
+								+ new java.sql.Timestamp(pointCalcul.getDate().getTime()) + "', '"
+								+ pointCalcul.getValeur() + "', '" + pointCalcul.getCouleur() + "', '"
+								+ pointCalcul.getType() + "')");
+
 				pointsCalcul.add(pointCalcul);
 			}
 		}
 
+		con.close();
 		return pointsCalcul;
 	}
 
@@ -156,9 +198,6 @@ public class PointWS {
 		double lat3 = Math.atan2(Math.sin(lat1) + Math.sin(lat2),
 				Math.sqrt((Math.cos(lat1) + Bx) * (Math.cos(lat1) + Bx) + By * By));
 		double lon3 = lon1 + Math.atan2(By, Math.cos(lat1) + Bx);
-
-		// print out in degrees
-		System.out.println(Math.toDegrees(lat3) + " " + Math.toDegrees(lon3));
 
 		pointCalcul.setLatitude(Math.toDegrees(lat3));
 		pointCalcul.setLongitude(Math.toDegrees(lon3));
