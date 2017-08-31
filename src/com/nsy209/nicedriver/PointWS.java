@@ -87,7 +87,7 @@ public class PointWS {
 			pointCalcul.setCouleur(resultats.getString("couleur"));
 			pointCalcul.setLatitude(resultats.getDouble("latitude"));
 			pointCalcul.setLongitude(resultats.getDouble("longitude"));
-			pointCalcul.setDate(sdf.format(resultats.getString("date")));
+			pointCalcul.setDate(sdf.format(resultats.getDate("date")));
 			pointCalcul.setValeur(resultats.getDouble("valeur"));
 			pointCalcul.setType(resultats.getString("type"));
 			pointsCalcul.add(pointCalcul);
