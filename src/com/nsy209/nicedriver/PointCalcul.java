@@ -4,7 +4,7 @@ import java.util.Date;
 public class PointCalcul {
 	double latitude;
 	double longitude;
-	Date date;
+	String date;
 	double valeur;
 	String couleur;
 	String type;
@@ -25,11 +25,12 @@ public class PointCalcul {
 		this.longitude = longitude;
 	}
 
-	public Date getDate() {
+
+	public String getDate() {
 		return date;
 	}
 
-	public void setDate(Date date) {
+	public void setDate(String date) {
 		this.date = date;
 	}
 

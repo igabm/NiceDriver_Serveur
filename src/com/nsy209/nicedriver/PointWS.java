@@ -3,6 +3,8 @@ package com.nsy209.nicedriver;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,7 +28,7 @@ import org.jboss.resteasy.plugins.providers.jaxb.json.JsonParsing;
 public class PointWS {
 
 	public Connection connectionDB() throws InstantiationException, IllegalAccessException, SQLException {
-		String url = "jdbc:mysql://91.134.139.64:32768/NiceDriver_Data";
+		String url = "jdbc:mysql://91.134.139.64:32768/NiceDriver_Data?rewriteBatchedStatements=true";
 		try {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
 			;
@@ -71,7 +73,7 @@ public class PointWS {
 	public List<PointCalcul> getListePoint(@PathParam("type") String type, @QueryParam("longitude1") double longitude1,
 			@QueryParam("latitude1") double latitude1, @QueryParam("longitude2") double longitude2,
 			@QueryParam("latitude2") double latitude2)
-			throws IOException, InstantiationException, IllegalAccessException, SQLException {
+			throws IOException, InstantiationException, IllegalAccessException, SQLException, ParseException {
 
 		List<PointCalcul> pointsCalcul = new ArrayList<PointCalcul>();
 
@@ -79,13 +81,13 @@ public class PointWS {
 
 		Statement stmt = con.createStatement();
 		ResultSet resultats = stmt.executeQuery("SELECT * FROM PointCalcul WHERE type=\"" + type + "\"");
-
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSSSSS");
 		while (resultats.next()) {
 			PointCalcul pointCalcul = new PointCalcul();
 			pointCalcul.setCouleur(resultats.getString("couleur"));
 			pointCalcul.setLatitude(resultats.getDouble("latitude"));
 			pointCalcul.setLongitude(resultats.getDouble("longitude"));
-			pointCalcul.setDate(resultats.getDate("date"));
+			pointCalcul.setDate(sdf.format(resultats.getString("date")));
 			pointCalcul.setValeur(resultats.getDouble("valeur"));
 			pointCalcul.setType(resultats.getString("type"));
 			pointsCalcul.add(pointCalcul);
@@ -98,10 +100,12 @@ public class PointWS {
 	@POST
 	@Path("")
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<PointCalcul> getListePointTrajet(String data) throws JSONException, JsonParseException,
-			JsonMappingException, IOException, SQLException, InstantiationException, IllegalAccessException {
+	public List<PointCalcul> getListePointTrajet(String data)
+			throws JSONException, JsonParseException, JsonMappingException, IOException, InstantiationException,
+			IllegalAccessException, SQLException, ParseException {
 
 		Connection con = this.connectionDB();
+
 		Statement stmt = con.createStatement();
 
 		List<PointCalcul> pointsCalcul = new ArrayList<PointCalcul>();
@@ -120,12 +124,9 @@ public class PointWS {
 
 		PointTrajet A = new PointTrajet();
 		PointTrajet B = new PointTrajet();
-
 		for (Signal signal : signaux) {
 			long dateSignal = signal.getDate().getTime();
-
 			long min = 0;
-
 			for (PointTrajet pointTrajet : pointsTrajet) {
 
 				long datePoint = pointTrajet.getDate().getTime();
@@ -153,26 +154,23 @@ public class PointWS {
 					}
 
 				}
-
-				PointCalcul pointCalcul = this.midPoint(A, B);
-
-				pointCalcul.setDate(signal.getDate());
-				pointCalcul.setValeur(signal.getValue());
-				pointCalcul.setType(signal.getName());
-
-				new java.sql.Timestamp(pointCalcul.getDate().getTime());
-
-				stmt.executeUpdate(
-						"INSERT INTO `PointCalcul` (`id`, `latitude`, `longitude`, `date`, `valeur`, `couleur`, `type`) VALUES (NULL, '"
-								+ pointCalcul.getLatitude() + "', '" + pointCalcul.getLongitude() + "', '"
-								+ new java.sql.Timestamp(pointCalcul.getDate().getTime()) + "', '"
-								+ pointCalcul.getValeur() + "', '" + pointCalcul.getCouleur() + "', '"
-								+ pointCalcul.getType() + "')");
-
-				pointsCalcul.add(pointCalcul);
 			}
-		}
+			PointCalcul pointCalcul = this.midPoint(A, B);
 
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSSSSS");
+			pointCalcul.setDate(sdf.format(signal.getDate()));
+			pointCalcul.setValeur(signal.getValue());
+			pointCalcul.setType(signal.getName());
+			stmt.addBatch(
+					"INSERT INTO `PointCalcul` (`id`, `latitude`, `longitude`, `date`, `valeur`, `couleur`, `type`) VALUES (NULL, '"
+							+ pointCalcul.getLatitude() + "', '" + pointCalcul.getLongitude() + "', '"
+							+ sdf.format(signal.getDate()) + "', '"
+							+ pointCalcul.getValeur() + "', '" + pointCalcul.getCouleur() + "', '"
+							+ pointCalcul.getType() + "')");
+			pointsCalcul.add(pointCalcul);
+		}
+		
+		stmt.executeBatch();
 		con.close();
 		return pointsCalcul;
 	}
