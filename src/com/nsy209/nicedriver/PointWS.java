@@ -1,8 +1,14 @@
 package com.nsy209.nicedriver;
 
+import java.awt.Polygon;
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.*;
+import java.lang.reflect.Type;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -19,10 +25,12 @@ import javax.ws.rs.core.MediaType;
 import org.apache.commons.io.IOUtils;
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.map.JsonMappingException;
-import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 import org.jboss.resteasy.plugins.providers.jaxb.json.JsonParsing;
+
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
 @Path("/points")
 public class PointWS {
@@ -74,7 +82,9 @@ public class PointWS {
 			@QueryParam("latitude1") double latitude1, @QueryParam("longitude2") double longitude2,
 			@QueryParam("latitude2") double latitude2)
 			throws IOException, InstantiationException, IllegalAccessException, SQLException, ParseException {
-
+		final Polygon polygon = new Polygon();
+		polygon.addPoint((int) Math.round(longitude1), (int) Math.round(latitude1));
+		polygon.addPoint((int) Math.round(longitude2), (int) Math.round(latitude2));
 		List<PointCalcul> pointsCalcul = new ArrayList<PointCalcul>();
 
 		Connection con = this.connectionDB();
@@ -83,17 +93,19 @@ public class PointWS {
 		ResultSet resultats = stmt.executeQuery("SELECT * FROM PointCalcul WHERE type=\"" + type + "\"");
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSSSSS");
 		while (resultats.next()) {
-			PointCalcul pointCalcul = new PointCalcul();
-			pointCalcul.setCouleur(resultats.getString("couleur"));
-			pointCalcul.setLatitude(resultats.getDouble("latitude"));
-			pointCalcul.setLongitude(resultats.getDouble("longitude"));
-			pointCalcul.setDate(sdf.format(resultats.getDate("date")));
-			pointCalcul.setValeur(resultats.getDouble("valeur"));
-			pointCalcul.setType(resultats.getString("type"));
-			pointsCalcul.add(pointCalcul);
+			//if(polygon.contains(resultats.getDouble("latitude"), resultats.getDouble("longitude"))) {
+				PointCalcul pointCalcul = new PointCalcul();
+				pointCalcul.setCouleur(resultats.getString("couleur"));
+				pointCalcul.setLatitude(resultats.getDouble("latitude"));
+				pointCalcul.setLongitude(resultats.getDouble("longitude"));
+				pointCalcul.setDate(sdf.format(resultats.getDate("date")));
+				pointCalcul.setValeur(resultats.getDouble("valeur"));
+				pointCalcul.setType(resultats.getString("type"));
+				pointsCalcul.add(pointCalcul);
+			//}
+			
 		}
 		resultats.close();
-
 		return pointsCalcul;
 	}
 
@@ -103,7 +115,6 @@ public class PointWS {
 	public List<PointCalcul> getListePointTrajet(String data)
 			throws JSONException, JsonParseException, JsonMappingException, IOException, InstantiationException,
 			IllegalAccessException, SQLException, ParseException {
-
 		Connection con = this.connectionDB();
 
 		Statement stmt = con.createStatement();
@@ -112,15 +123,15 @@ public class PointWS {
 
 		JSONObject jsonObject = new JSONObject(data);
 
-		ObjectMapper mapper = new ObjectMapper();
 		String jsonPointsTrajet = jsonObject.getJSONArray("locations").toString();
 		String jsonSignal = jsonObject.getJSONArray("signals").toString();
+		
+		Type listPointTrajet = new TypeToken<ArrayList<PointTrajet>>(){}.getType();
+		Type listSignaux = new TypeToken<ArrayList<Signal>>(){}.getType();
 
-		List<PointTrajet> pointsTrajet = mapper.readValue(jsonPointsTrajet,
-				mapper.getTypeFactory().constructParametricType(List.class, PointTrajet.class));
-
-		List<Signal> signaux = mapper.readValue(jsonSignal,
-				mapper.getTypeFactory().constructParametricType(List.class, Signal.class));
+		List<PointTrajet> pointsTrajet = new Gson().fromJson(jsonPointsTrajet, listPointTrajet);
+		
+		List<Signal> signaux = new Gson().fromJson(jsonSignal, listSignaux);
 
 		PointTrajet A = new PointTrajet();
 		PointTrajet B = new PointTrajet();
@@ -164,12 +175,11 @@ public class PointWS {
 			stmt.addBatch(
 					"INSERT INTO `PointCalcul` (`id`, `latitude`, `longitude`, `date`, `valeur`, `couleur`, `type`) VALUES (NULL, '"
 							+ pointCalcul.getLatitude() + "', '" + pointCalcul.getLongitude() + "', '"
-							+ sdf.format(signal.getDate()) + "', '"
-							+ pointCalcul.getValeur() + "', '" + pointCalcul.getCouleur() + "', '"
-							+ pointCalcul.getType() + "')");
+							+ sdf.format(signal.getDate()) + "', '" + pointCalcul.getValeur() + "', '"
+							+ pointCalcul.getCouleur() + "', '" + pointCalcul.getType() + "')");
 			pointsCalcul.add(pointCalcul);
 		}
-		
+
 		stmt.executeBatch();
 		con.close();
 		return pointsCalcul;
